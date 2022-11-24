@@ -1,0 +1,14 @@
+.BtnHeaderClass{
+    @apply px-5 py-1 text-white text-lg font-normal bg-transparent border border-white cursor-pointer
+    sm:px-8;
+}
+.BtnHeaderClass:hover{
+    @apply delay-100 duration-100 rounded-3xl;
+}
+.BtnMainClass{
+    @apply px-5 py-3 text-black text-lg font-normal bg-white border border-white cursor-pointer mt-10 italic
+    sm:px-8
+}
+.BtnMainClass:hover{
+    @apply delay-100 duration-100 rounded-3xl
+}

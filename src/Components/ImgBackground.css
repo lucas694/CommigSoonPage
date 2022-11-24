@@ -1,0 +1,6 @@
+.BgImage{
+    @apply h-full w-full bg-cover bg-center bg-no-repeat brightness-50 z-0 absolute
+}
+.BgImage{
+    background-image: url("../Assets/bg-image.jpg");
+}

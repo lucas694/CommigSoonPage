@@ -1,0 +1,14 @@
+.Header{
+    @apply flex flex-row justify-between items-center px-6 py-5
+    sm:flex sm:flex-row sm:justify-between sm:items-center sm:px-20 sm:py-5;
+}
+.Header-Left {
+    @apply flex flex-row items-center space-x-4
+    sm:flex sm:flex-row sm:items-center sm:space-x-4 ;
+}
+.GitIcon{
+    @apply w-10 h-10 text-white;
+}
+.HeaderTittle{
+    @apply text-white text-xl font-semibold;
+}

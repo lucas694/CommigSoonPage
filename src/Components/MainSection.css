@@ -1,0 +1,19 @@
+.MainSection{
+    @apply w-full h-full flex flex-col justify-center items-center
+}
+.MainTittle{
+    @apply font-bold text-center text-white mt-10
+    text-7xl
+    md:text-9xl
+    sm:text-8xl
+}
+.Subtext{
+    @apply text-xl text-center font-normal text-white italic
+}
+.HrMain{
+    @apply w-[70%] border border-white mt-14
+    lg:w-[15%]
+}
+.UpdateSec{
+    @apply w-full flex flex-col justify-center items-center mt-20
+}
